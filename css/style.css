@@ -1,0 +1,123 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	position:fixed;
+	  top: 0;
+	  left: 0;
+	  width:100%;
+	  height:100%;
+	  min-width: 1000px;
+	  z-index:-10;
+	  zoom: 1;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  -webkit-background-size: cover;
+	  -o-background-size: cover;
+	  background-position: center 0;
+    font-family: "montserrat";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    animation: bganimation 15s infinite;
+}
+  
+
+.container{
+    position: -ms-page;
+    width: 40rem;
+    height: 0;
+}
+
+
+
+.panel{
+	width: 30%;
+	margin: 3rem 0 0;
+    position: absolute;
+    right:25rem;
+	top:0;  
+    display: flex;
+    justify-content: center;
+}
+.bai{
+    text-decoration: none;
+}
+form{
+    width: 12rem;
+    margin: 3rem 0 0;
+}
+
+form .input{
+    position: relative;
+    opacity: 1;
+	height: 2rem;
+    width: 100%;
+    margin: 2rem 0;
+    transition: .4s;
+}
+
+.input input{
+    outline: none;
+    width: 100%;
+    border: none;
+    background: 0%;
+    border-bottom: .1rem solid rgb(56, 7, 88);
+}
+
+.input::after{
+    content:attr(placeholder);
+    position: absolute;
+    left: 0;
+    top: -10%;
+    font-size: 1.2rem;
+    color: rgb(22, 12, 82);
+    transition: .3s;
+}
+
+.input.focus::after{
+    top:-50%;
+    font-size: .9rem;
+}
+
+
+form span{
+    display: block;
+    color:rgb(79, 126, 189);
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+button{
+    border:none;
+    outline: none;
+    margin: 2.5rem 0 0;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    background: linear-gradient(90deg,rgb(40, 114, 197),rgb(211, 187, 214) );
+    box-shadow: 0 0 8px rgb(181, 154, 254);
+    cursor: pointer;
+    color:white;
+}
+.btn{
+    border:none;
+    outline: none;
+    margin: 2.5rem 0 0;
+    width: 100%;
+    height: 3rem;
+    border-radius: 3rem;
+    background: linear-gradient(90deg,rgb(40, 114, 197),rgb(211, 187, 214) );
+    box-shadow: 0 0 8px rgb(181, 154, 254);
+    cursor: pointer;
+    color:white;
+}
+ranktable{
+	
+	
+	
+}

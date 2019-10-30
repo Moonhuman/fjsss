@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\历史战局详情.css">
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="注册.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/all.js">	
+	</script>
+</head>
+
+<body background="./img/4fa9fc627e50816cb45129f6c2100da1.jpg">
+<div class="rank-table1" >
+	<table id="rank-table1" border="3"  width="700"  align="left"  cellpadding="5" cellspacing="1" >
+		<caption><h3>正在查看</h3></caption>
+		<tr align="center" height="60" >
+			<th>战局ID</th>
+			<th>玩家ID</th>
+			<th>玩家名</th>	
+			<th>分数变化</th>
+			<th>出牌情况</th>
+			<th>结算时间</th>
+		</tr>
+	</table>
+</div>
+    <div class="container">
+        <div class="panel">
+            <div class="content history">
+                <div class="switch">
+                    <span id='signup'>输入你想看的历史战局</span>
+                </div>
+                <form  action="" role="form" method="GET" id='history_form' >
+    
+                    <div class="input" required id="name"  placeholder='战局id'><input name="username" id="game_id" type="text"></div>
+					   <input type="button" class="btn"  id="login-btn" onclick="lookhistory()" value="查看">
+						<input type="button" class="btn"  id="login-btn" onclick="javascrtpt:window.location.href='游戏大厅.html'" value="返回大厅">
+					
+                    
+                    <!-- <button id="login-btn" onclick="register()">LOGIN</button> <a href="游戏大厅.html"><span>返回大厅</span></a>-->
+                 
+                   
+                </form>
+                <!-- <a href="游戏大厅.html"><button>LOGIN</button><a></a> -->
+                
+            </div>
+        </div>
+    </div>
+       
+
+</body>
+</html>
