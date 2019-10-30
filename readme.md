@@ -1,7 +1,7 @@
 # 福建十三水
 
 
-![](https://img.shields.io/cocoapods/p/fjsss.svg?style=flat)
+![](https://img.shields.io/badge/language-objc-orange.svg)
 
 ## 运行环境
 
